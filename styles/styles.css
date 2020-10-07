@@ -157,6 +157,10 @@ a:hover {
   display: none;
 }
 
+#mobile-form p{
+  font-weight: bold;
+}
+
 #desktop-form p{
   margin: 0;
   padding: 1rem 0;
@@ -223,6 +227,14 @@ a:hover {
 
   #mobile-form {
     display: block;
+  }
+
+  #mobile-form .col-3 {
+    padding: 0;
+  }
+
+  #mobile-form .col-6 {
+    padding: 0;
   }
 
   #desktop-form {
