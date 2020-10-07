@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: inherit;
+}
+
+a:hover {
+  color: #ec5242;
+}
+
+.c-orange {
+  color: #ec5242;
+}
+
+.divider {
+  width: 30px;
+  border: 1px solid grey;
+}
+
+.top-bar ul li {
+  display: inline-block;
+  margin: 0 .5rem;
+}
+
+.nav-menu ul {
+  margin-bottom: 0.5rem;
+}
+
+.nav-menu ul li {
+  display: inline-block;
+  font-size: 20px;
+}
+
+.border-orng {
+  border: 1px solid #ec5242;
+  width: 50px;
+  margin: 0 auto;
+}
+
+.intro h1 {
+  font-size: 6rem;
+  font-weight: bold;
+  background-image:linear-gradient(rgba(236, 82, 66, .8), rgba(236, 82, 66, 0.5) ), url(https://images.unsplash.com/photo-1524368535928-5b5e00ddc76b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
+  background-size: contain;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.intro h3 {
+  font-size: 4.5rem;
+}
+
+.intro-info {
+  margin: 2rem 0;
+  width: 80%;
+}
+
+.intro-info p {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.info-date {
+  margin-bottom: 5rem;
+}
+
+.info-date h2 {
+  font-weight: bold;
+}
+
+.main-program {
+  background-color: #272a31;
+}
+
+.main-program i {
+  font-size: 60px;
+  margin: 1.5rem 0;
+}
+
+.program-info {
+  background-color: rgba(211, 211, 211, 0.1);
+  margin: 0 .1rem;
+}
+
+.program-info:hover {
+  outline: 3px solid white;
+}
+
+.w-program {
+  margin-top: 5rem;
+  padding-bottom: 5.5rem;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 100% !important;
+  }
+
+  .top-bar,
+  .main-nav {
+    display: none;
+  }
+  .jumbrotron {
+    padding: 1rem;
+  }
+
+  .intro h1 {
+    font-size: 3rem;
+  }
+  
+  .intro h3 {
+    font-size: 1.5rem;
+  }
+
+  .program-info {
+    margin: 0 0.5rem;
+    margin-bottom: 1rem;
+  }
+  .partner img {
+    margin-bottom: 1rem;
+  }
+
+  .program-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .program-info i,
+  .program-info h5 {
+    display: inline-block;
+    
+  }
+}
