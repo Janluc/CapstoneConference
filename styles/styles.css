@@ -12,6 +12,14 @@ a {
   color: inherit;
 }
 
+header {
+  position: relative;
+  z-index: 10;
+  -webkit-box-shadow: 1px 1px 19px -6px rgba(0,0,0,0.56);
+  -moz-box-shadow: 1px 1px 19px -6px rgba(0,0,0,0.56);
+  box-shadow: 1px 1px 19px -6px rgba(0,0,0,0.56);
+}
+
 a:hover {
   color: #ec5242;
 }
@@ -44,6 +52,8 @@ a:hover {
   width: 50px;
   margin: 0 auto;
 }
+
+
 
 .intro h1 {
   font-size: 6rem;
@@ -100,11 +110,82 @@ a:hover {
   padding-bottom: 5.5rem;
 }
 
+
+
+/* About Us */
+
+#past-events a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+#past-events .col-md {
+  margin-bottom: 1rem;
+}
+
+.past-event {
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#pe-2018 {
+  background-image: linear-gradient(rgba(236, 82, 66, .8), rgba(236, 82, 66, 0.5) ), url(https://previews.123rf.com/images/dwphotos/dwphotos1406/dwphotos140600022/29458457-silhouettes-of-concert-crowd-in-front-of-bright-stage-lights.jpg);
+  background-size: cover;
+}
+
+#pe-2019 {
+  background-image: linear-gradient(rgba(236, 82, 66, .8), rgba(236, 82, 66, 0.5) ), url(https://s3.envato.com/files/118583398/Concert%20Light%20And%20Crowd%20Hands-590x300.jpg);
+  background-size: cover;
+}
+
+.mobile-ftr {
+  display: none;
+}
+
+.form-steps {
+  border: 1px solid grey;
+  border-radius: 500px;
+  padding: 1rem 3rem;
+  margin: 3rem 0;
+}
+
+/* Tickets */
+
+#mobile-form {
+  display: none;
+}
+
+#desktop-form p{
+  margin: 0;
+  padding: 1rem 0;
+  font-weight: bold;
+}
+
+#desktop-form label {
+  font-size: 20px;
+}
+
+.orng-btn {
+  background-color: #ec5242;
+  padding: 1rem;
+  border: none;
+  font-size: 18px;
+}
+
 @media screen and (max-width: 768px) {
   .container {
     width: 100% !important;
   }
 
+  .mobile-ftr{
+    display: block;
+  }
+
+  .desktop-ftr {
+    display: none;
+  }
   .top-bar,
   .main-nav {
     display: none;
@@ -138,5 +219,13 @@ a:hover {
   .program-info h5 {
     display: inline-block;
     
+  }
+
+  #mobile-form {
+    display: block;
+  }
+
+  #desktop-form {
+    display: none;
   }
 }
