@@ -38,22 +38,15 @@ a:hover {
   margin: 0 .5rem;
 }
 
-.nav-menu ul {
-  margin-bottom: 0.5rem;
-}
-
-.nav-menu ul li {
-  display: inline-block;
-  font-size: 20px;
-}
-
 .border-orng {
   border: 1px solid #ec5242;
   width: 50px;
   margin: 0 auto;
 }
 
-
+.hamb-icon {
+  display: none;
+}
 
 .intro h1 {
   font-size: 6rem;
@@ -63,6 +56,11 @@ a:hover {
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
+}
+
+.navbar-brand {
+  font-size: 24px;
+  font-weight: bold;
 }
 
 .intro h3 {
@@ -183,6 +181,12 @@ a:hover {
     width: 100% !important;
   }
 
+  .hamb-icon {
+    display: block;
+    position: fixed;
+    font-size: 20px;
+  }
+
   .mobile-ftr{
     display: block;
   }
@@ -190,8 +194,7 @@ a:hover {
   .desktop-ftr {
     display: none;
   }
-  .top-bar,
-  .main-nav {
+  .top-bar {
     display: none;
   }
   .jumbrotron {
