@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'cocogooseregular';
-  src: url('/styles/cocogoose_trial-webfont.woff2') format('woff2'),
-       url('/styles/cocogoose_trial-webfont.woff') format('woff');
+  src:
+    url('/styles/cocogoose_trial-webfont.woff2') format('woff2'),
+    url('/styles/cocogoose_trial-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
-
 }
 
 * {
@@ -25,9 +25,9 @@ a {
 header {
   position: relative;
   z-index: 10;
-  -webkit-box-shadow: 1px 1px 19px -6px rgba(0,0,0,0.56);
-  -moz-box-shadow: 1px 1px 19px -6px rgba(0,0,0,0.56);
-  box-shadow: 1px 1px 19px -6px rgba(0,0,0,0.56);
+  -webkit-box-shadow: 1px 1px 19px -6px rgba(0, 0, 0, 0.56);
+  -moz-box-shadow: 1px 1px 19px -6px rgba(0, 0, 0, 0.56);
+  box-shadow: 1px 1px 19px -6px rgba(0, 0, 0, 0.56);
 }
 
 a:hover {
@@ -53,7 +53,7 @@ a:hover {
 
 .top-bar ul li {
   display: inline-block;
-  margin: 0 .5rem;
+  margin: 0 0.5rem;
 }
 
 .border-orng {
@@ -70,10 +70,10 @@ a:hover {
   font-family: 'cocogooseregular', sans-serif;
   font-size: 6rem;
   font-weight: bold;
-  background-image:linear-gradient(rgba(236, 82, 66, .8), rgba(236, 82, 66, 0.5) ), url(https://images.unsplash.com/photo-1524368535928-5b5e00ddc76b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
+  background-image: linear-gradient(rgba(236, 82, 66, 0.8), rgba(236, 82, 66, 0.5)), url(https://images.unsplash.com/photo-1524368535928-5b5e00ddc76b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
   background-size: contain;
+  background-clip: inherit;
   -webkit-background-clip: text;
-  background-clip: text;
   color: transparent;
 }
 
@@ -115,7 +115,7 @@ a:hover {
 
 .program-info {
   background-color: rgba(211, 211, 211, 0.1);
-  margin: 0 .1rem;
+  margin: 0 0.1rem;
 }
 
 .program-info:hover {
@@ -126,8 +126,6 @@ a:hover {
   margin-top: 5rem;
   padding-bottom: 5.5rem;
 }
-
-
 
 /* About Us */
 
@@ -148,12 +146,12 @@ a:hover {
 }
 
 #pe-2018 {
-  background-image: linear-gradient(rgba(236, 82, 66, .8), rgba(236, 82, 66, 0.5) ), url(https://previews.123rf.com/images/dwphotos/dwphotos1406/dwphotos140600022/29458457-silhouettes-of-concert-crowd-in-front-of-bright-stage-lights.jpg);
+  background-image: linear-gradient(rgba(236, 82, 66, 0.8), rgba(236, 82, 66, 0.5)), url(https://previews.123rf.com/images/dwphotos/dwphotos1406/dwphotos140600022/29458457-silhouettes-of-concert-crowd-in-front-of-bright-stage-lights.jpg);
   background-size: cover;
 }
 
 #pe-2019 {
-  background-image: linear-gradient(rgba(236, 82, 66, .8), rgba(236, 82, 66, 0.5) ), url(https://s3.envato.com/files/118583398/Concert%20Light%20And%20Crowd%20Hands-590x300.jpg);
+  background-image: linear-gradient(rgba(236, 82, 66, 0.8), rgba(236, 82, 66, 0.5)), url(https://s3.envato.com/files/118583398/Concert%20Light%20And%20Crowd%20Hands-590x300.jpg);
   background-size: cover;
 }
 
@@ -174,11 +172,11 @@ a:hover {
   display: none;
 }
 
-#mobile-form p{
+#mobile-form p {
   font-weight: bold;
 }
 
-#desktop-form p{
+#desktop-form p {
   margin: 0;
   padding: 1rem 0;
   font-weight: bold;
@@ -206,16 +204,18 @@ a:hover {
     font-size: 20px;
   }
 
-  .mobile-ftr{
+  .mobile-ftr {
     display: block;
   }
 
   .desktop-ftr {
     display: none;
   }
+
   .top-bar {
     display: none;
   }
+
   .jumbrotron {
     padding: 1rem;
   }
@@ -223,7 +223,7 @@ a:hover {
   .intro h1 {
     font-size: 3rem;
   }
-  
+
   .intro h3 {
     font-size: 1.5rem;
   }
@@ -232,6 +232,7 @@ a:hover {
     margin: 0 0.5rem;
     margin-bottom: 1rem;
   }
+
   .partner img {
     margin-bottom: 1rem;
   }
@@ -241,10 +242,10 @@ a:hover {
     align-items: center;
     justify-content: space-around;
   }
+
   .program-info i,
   .program-info h5 {
     display: inline-block;
-    
   }
 
   #mobile-form {
