@@ -42,6 +42,11 @@ a:hover {
   color: #ec5242;
 }
 
+.partner-img {
+  display: flex;
+  align-items: center;
+}
+
 .bgc-black {
   background-color: #272a31;
 }
@@ -62,7 +67,9 @@ a:hover {
   margin: 0 auto;
 }
 
-.hamb-icon {
+.hamb-icon,
+.mobile-ftr,
+#mobile-form {
   display: none;
 }
 
@@ -155,10 +162,6 @@ a:hover {
   background-size: cover;
 }
 
-.mobile-ftr {
-  display: none;
-}
-
 .form-steps {
   border: 1px solid grey;
   border-radius: 500px;
@@ -168,8 +171,8 @@ a:hover {
 
 /* Tickets */
 
-#mobile-form {
-  display: none;
+.fs-40 {
+  font-size: 40px;
 }
 
 #mobile-form p {
@@ -208,11 +211,9 @@ a:hover {
     display: block;
   }
 
-  .desktop-ftr {
-    display: none;
-  }
-
-  .top-bar {
+  .top-bar,
+  .desktop-ftr,
+  #desktop-form {
     display: none;
   }
 
@@ -234,7 +235,9 @@ a:hover {
   }
 
   .partner img {
+    margin: 0 auto;
     margin-bottom: 1rem;
+    width: 50%;
   }
 
   .program-title {
@@ -252,15 +255,8 @@ a:hover {
     display: block;
   }
 
-  #mobile-form .col-3 {
-    padding: 0;
-  }
-
+  #mobile-form .col-3,
   #mobile-form .col-6 {
     padding: 0;
-  }
-
-  #desktop-form {
-    display: none;
   }
 }
