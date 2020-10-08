@@ -17,7 +17,7 @@ An Original website using a pre-made design. Made with HTML, CSS and Bootstrap w
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/alejandrotoledoweb/nyt-article/d310f128b6c58b22066b6148ce8785b774805c77/index.html)
+[Live Demo Link](https://janluc.github.io/CapstoneConference/index.html)
 
 
 ## Getting Started
