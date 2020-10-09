@@ -1,0 +1,262 @@
+@font-face {
+  font-family: 'cocogooseregular';
+  src:
+    url('/styles/cocogoose_trial-webfont.woff2') format('woff2'),
+    url('/styles/cocogoose_trial-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: inherit;
+}
+
+header {
+  position: relative;
+  z-index: 10;
+  -webkit-box-shadow: 1px 1px 19px -6px rgba(0, 0, 0, 0.56);
+  -moz-box-shadow: 1px 1px 19px -6px rgba(0, 0, 0, 0.56);
+  box-shadow: 1px 1px 19px -6px rgba(0, 0, 0, 0.56);
+}
+
+a:hover {
+  color: #ec5242;
+}
+
+.f-cocogoose {
+  font-family: 'cocogooseregular', sans-serif;
+}
+
+.c-orange {
+  color: #ec5242;
+}
+
+.partner-img {
+  display: flex;
+  align-items: center;
+}
+
+.bgc-black {
+  background-color: #272a31;
+}
+
+.divider {
+  width: 30px;
+  border: 1px solid grey;
+}
+
+.top-bar ul li {
+  display: inline-block;
+  margin: 0 0.5rem;
+}
+
+.border-orng {
+  border: 1px solid #ec5242;
+  width: 50px;
+  margin: 0 auto;
+}
+
+.hamb-icon,
+.mobile-ftr,
+#mobile-form {
+  display: none;
+}
+
+.intro h1 {
+  font-family: 'cocogooseregular', sans-serif;
+  font-size: 6rem;
+  font-weight: bold;
+  background-image: linear-gradient(rgba(236, 82, 66, 0.8), rgba(236, 82, 66, 0.5)), url(https://images.unsplash.com/photo-1524368535928-5b5e00ddc76b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
+  background-size: contain;
+  background-clip: inherit;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.navbar-brand {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.intro h3 {
+  font-size: 4.5rem;
+}
+
+.intro-info {
+  margin: 2rem 0;
+  width: 80%;
+}
+
+.intro-info p {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.info-date {
+  margin-bottom: 5rem;
+}
+
+.info-date h2 {
+  font-weight: bold;
+}
+
+.main-program {
+  background-color: #272a31;
+}
+
+.main-program i {
+  font-size: 60px;
+  margin: 1.5rem 0;
+}
+
+.program-info {
+  background-color: rgba(211, 211, 211, 0.1);
+  margin: 0 0.1rem;
+}
+
+.program-info:hover {
+  outline: 3px solid white;
+}
+
+.w-program {
+  margin-top: 5rem;
+  padding-bottom: 5.5rem;
+}
+
+/* About Us */
+
+#past-events a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+#past-events .col-md {
+  margin-bottom: 1rem;
+}
+
+.past-event {
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#pe-2018 {
+  background-image: linear-gradient(rgba(236, 82, 66, 0.8), rgba(236, 82, 66, 0.5)), url(https://previews.123rf.com/images/dwphotos/dwphotos1406/dwphotos140600022/29458457-silhouettes-of-concert-crowd-in-front-of-bright-stage-lights.jpg);
+  background-size: cover;
+}
+
+#pe-2019 {
+  background-image: linear-gradient(rgba(236, 82, 66, 0.8), rgba(236, 82, 66, 0.5)), url(https://s3.envato.com/files/118583398/Concert%20Light%20And%20Crowd%20Hands-590x300.jpg);
+  background-size: cover;
+}
+
+.form-steps {
+  border: 1px solid grey;
+  border-radius: 500px;
+  padding: 1rem 3rem;
+  margin: 3rem 0;
+}
+
+/* Tickets */
+
+.fs-40 {
+  font-size: 40px;
+}
+
+#mobile-form p {
+  font-weight: bold;
+}
+
+#desktop-form p {
+  margin: 0;
+  padding: 1rem 0;
+  font-weight: bold;
+}
+
+#desktop-form label {
+  font-size: 20px;
+}
+
+.orng-btn {
+  background-color: #ec5242;
+  padding: 1rem;
+  border: none;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 100% !important;
+  }
+
+  .hamb-icon {
+    display: block;
+    position: fixed;
+    font-size: 20px;
+  }
+
+  .mobile-ftr {
+    display: block;
+  }
+
+  .top-bar,
+  .desktop-ftr,
+  #desktop-form {
+    display: none;
+  }
+
+  .jumbrotron {
+    padding: 1rem;
+  }
+
+  .intro h1 {
+    font-size: 3rem;
+  }
+
+  .intro h3 {
+    font-size: 1.5rem;
+  }
+
+  .program-info {
+    margin: 0 0.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .partner img {
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    width: 50%;
+  }
+
+  .program-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .program-info i,
+  .program-info h5 {
+    display: inline-block;
+  }
+
+  #mobile-form {
+    display: block;
+  }
+
+  #mobile-form .col-3,
+  #mobile-form .col-6 {
+    padding: 0;
+  }
+}
